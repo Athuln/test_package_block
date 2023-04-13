@@ -1,0 +1,33 @@
+{
+  "app_id": "sbdemo-Z8zZM-N0dOQ1YWDOahBbK",
+  "app_name": "sbdemo",
+  "deployment_mode": 0,
+  "environments": {
+    "dev": {
+      "environment_id": "NfO7FNFtOEt1n_Y_4zvOk",
+      "environment_name": "dev",
+      "on_premise": {
+        "backend": {
+          "aws_fargate": [
+            {
+              "name": "sbdemoFunc",
+              "container": "sbdemodevcontainer",
+              "load_balancer_dns": "http://sbdemodevcontainerLB-2020265541.us-east-1.elb.amazonaws.com"
+            }
+          ]
+        },
+        "frontend": {
+          "aws_static_web_hosting": [
+            {
+              "name": "sbdemoView",
+              "bucket": "demoapp.test.com",
+              "static_host": "http://demoapp.test.com.s3-website-us-east-1.amazonaws.com/",
+              "elementsBucket": "single.demoapp.test.com",
+              "elements_static_host": "http://single.demoapp.test.com.s3-website-us-east-1.amazonaws.com/"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+assets by chunk 1.43 MiB (id hint: vendors)
+  asset vendors-node_modules_pnpm_react-dom_18_2_0_react_18_2_0_node_modules_react-dom_index_js.js 1.03 MiB [emitted] (id hint: vendors)
+  asset vendors-node_modules_pnpm_react-router-dom_6_9_0_biqbaboplfbrettd7655fr4n2y_node_modules_reac-2cc08d.js 254 KiB [emitted] (id hint: vendors)
+  asset vendors-node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js 90.2 KiB [emitted] (id hint: vendors)
+  asset vendors-node_modules_pnpm_appblocks_js-sdk_0_0_11_node_modules_appblocks_js-sdk_index_js.js 62.4 KiB [emitted] (id hint: vendors)
+asset main.js 313 KiB [emitted] (name: main)
+asset src_bootstrap_js.js 21.2 KiB [emitted]
+asset components_Home_index_js.js 19.9 KiB [emitted]
+asset components_TodoInput_index_js.js 10.9 KiB [emitted]
+asset components_TodoItem_index_js.js 10.9 KiB [emitted]
+asset index.html 1.71 KiB [emitted]
+runtime modules 44.1 KiB 18 modules
+modules by path ./node_modules/.pnpm/ 1.52 MiB 41 modules
+provide-module modules 168 bytes 4 modules
+consume-shared-module modules 168 bytes 4 modules
+modules by path ./components/ 3.01 KiB
+  ./components/Header/index.js 707 bytes [built] [code generated]
+  ./components/Home/index.js 1.12 KiB [built] [code generated]
+  ./components/TodoInput/index.js 616 bytes [built] [code generated]
+  ./components/TodoItem/index.js 613 bytes [built] [code generated]
+modules by path ./src/*.js 1.11 KiB
+  ./src/index.js 22 bytes [built] [code generated]
+  ./src/bootstrap.js 325 bytes [built] [code generated]
+  ./src/App.js 787 bytes [built] [code generated]
+./common/routes/appRoute.js 485 bytes [built] [code generated]
+./assets/appblocks-logo.svg 3.69 KiB [built] [code generated]
+webpack 5.52.0 compiled successfully in 1885 ms

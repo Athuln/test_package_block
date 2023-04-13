@@ -1,0 +1,48 @@
+{
+  "sbdemoFunc": {
+    "name": "sbdemoFunc",
+    "uploadService": "aws_ecr",
+    "domain": "test.test.com",
+    "blockType": "function",
+    "appName": "sbdemo",
+    "deployService": "aws_fargate",
+    "envName": "dev",
+    "blocks": [
+      "addTodo",
+      "listTodos",
+      "removeTodo",
+      "c4c_be_login",
+      "c4c_be_shared"
+    ],
+    "aws_ecr": {
+      "container": "sbdemodevcontainer"
+    },
+    "aws_fargate": {
+      "vpcId": "vpc-098b82d044d1498da",
+      "subnetIds": ["subnet-0f1bfda09d37d34a3", "subnet-0c87997428002ceeb"],
+      "securityGroupIds": ["sg-04625d15b6115b018"],
+      "memory": "1 GB",
+      "cpu": ".5 vCPU",
+      "autoScaleAllowed": true,
+      "minCapacity": 1,
+      "maxCapacity": 3,
+      "desiredCount": 2
+    }
+  },
+  "sbdemoView": {
+    "name": "sbdemoView",
+    "uploadService": "aws_s3",
+    "domain": "demoapp.test.com",
+    "elementsDomain": "single.demoapp.test.com",
+    "blockType": "view",
+    "appName": "sbdemo",
+    "singleBuildDeployment": true,
+    "deployService": "aws_static_web_hosting",
+    "envName": "dev",
+    "aws_s3": {
+      "bucket": "demoapp.test.com",
+      "elementsBucket": "single.demoapp.test.com"
+    },
+    "aws_static_web_hosting": {}
+  }
+}

@@ -1,0 +1,6 @@
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:4200/
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.1.11:4200/
+<i> [webpack-dev-server] On Your Network (IPv6): http://[fe80::62a9:b887:8317:38a7]:4200/
+<i> [webpack-dev-server] Content not from webpack is served from '/home/ntpl/NEOITO_PROJECTS/APPBLOCKS/_TEST/_CLI_TEST_APPS/localCliTest2/singlebuildDemo/._ab_em_elements/dist/bootstrap.js' directory
+<i> [webpack-dev-server] 404s will fallback to '/index.html'

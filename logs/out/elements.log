@@ -1,0 +1,21 @@
+
+> start
+> webpack-dev-server "--port=4200"
+
+asset remoteEntry.js 353 KiB [emitted] (name: remotes)
+asset main.js 341 KiB [emitted] (name: main)
+asset vendors-node_modules_pnpm_react_18_2_0_node_modules_react_index_js.js 98.4 KiB [emitted] (id hint: vendors)
+asset todoInput_src_remote_todoInput_js.js 3.92 KiB [emitted]
+asset index.html 3.52 KiB [emitted]
+asset todoItem_src_remote_todoItem_js.js 3.11 KiB [emitted]
+runtime modules 73.3 KiB 34 modules
+built modules 332 KiB (javascript) 42 bytes (share-init) 42 bytes (consume-shared) [built]
+  modules by path ./node_modules/.pnpm/ 329 KiB 30 modules
+  modules by path ../ 2.99 KiB
+    ../todoInput/src/remote/todoInput.js 1.86 KiB [built] [code generated]
+    ../todoItem/src/remote/todoItem.js 1.14 KiB [built] [code generated]
+  ./src/index.js 1 bytes [built] [code generated]
+  provide shared module (default) react@18.2.0 = ./node_modules/.pnpm/react@18.2.0/node_modules/react/index.js 42 bytes [built] [code generated]
+  container entry 42 bytes [built] [code generated]
+  consume shared module (default) react@^18.2.0 (singleton) (fallback: ./node_modules/.pnpm/react@18.2.0/node_modules/react/index.js) 42 bytes [built] [code generated]
+webpack 5.52.0 compiled successfully in 2145 ms

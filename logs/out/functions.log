@@ -1,0 +1,12 @@
+function emulator started on port 5000
+url addTodo
+requested_func addTodo
+handler =  [Module: null prototype] { default: [AsyncFunction: handler] }
+Request to add - { name: 'test' }
+Updated DB:
+ [
+  { id: 1679033486971, item: { name: 'test' } },
+  { id: 1680088818160, item: { name: 'test' } }
+]
+
+
