@@ -1,0 +1,19 @@
+{
+  "name": "test_package_block",
+  "version": "1.0.0",
+  "description": "updated-readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Athuln/test_package_block.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Athuln/test_package_block/issues"
+  },
+  "homepage": "https://github.com/Athuln/test_package_block#readme"
+}

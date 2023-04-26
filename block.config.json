@@ -2,8 +2,8 @@
   "name": "singlebuildDemo",
   "type": "package",
   "source": {
-    "https": "https://github.com/devthalal/singlebuildDemo",
-    "ssh": "git@github.com:devthalal/singlebuildDemo.git"
+    "https": "https://github.com/Athuln/test_package_block.git",
+    "ssh": "git@github.com:Athuln/test_package_block.git"
   },
   "env": {
     "function": {
