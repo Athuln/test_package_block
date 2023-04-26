@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky":{
+    "hooks":{
+      "post-merge":"echo \"[Husky] post commit \"",
+      "pre-commit":"git add . && git status && echo \" [Husky] pre commit \""
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Athuln/test_package_block.git"
@@ -15,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/Athuln/test_package_block/issues"
   },
-  "homepage": "https://github.com/Athuln/test_package_block#readme"
+  "homepage": "https://github.com/Athuln/test_package_block#readme",
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+ 
 }
